@@ -3,6 +3,7 @@
 /**
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
  *
+ * @author Moses <mosesmami0@gmail.com>
  * @author Tim Wimmer <twimmer@78h.de>
  * @author Matthias Schulte <mailinglist@lupo49.de>
  * @author Dennis Plöger <develop@dieploegers.de>
@@ -34,6 +35,9 @@ $lang['securityrecommendation'] = 'Es wird nicht empfohlen das Plugin zu verwend
 $lang['securitylink']          = 'Plugin Sicherheitsrichtlinien';
 $lang['name_underscore']       = 'Pluginname enthält Unterstriche. Keine Generierung von Popularitätspunkten.';
 $lang['name_oldage']           = 'Die Erweiterung wurde in den letzten 2 Jahren nicht aktualisiert. Es wird scheinbar nicht mehr weiterentwickelt und könnte Probleme verursachen.';
+$lang['extension_obsoleted']   = '<strong>Diese Erweiterung wurde als obsolet markiert.</strong> Deshalb ist sie im Erweiterungsmanager und der Erweiterungsliste versteckt. In Zukunft wird sie möglicherweise entfernt.';
+$lang['missing_downloadurl']   = 'Die fehlende Download-Adresse bedeutet, dass die Erweiterung nicht durch den Manager installiert werden kann. Weitere Informationen: <a href="/devel:plugins#publishing_a_plugin_on_dokuwikiorg" class="wikilink1" title="devel:plugins">Publishing a Plugin on dokuwiki.org</a>. Es wird empfohlen, öffentliche Repositorien wie GitHub, GitLab oder Bitbucket zu nutzen.';
+$lang['wrongnamespace']        = 'Diese Erweiterung ist nicht im Namensraum für \'plugin\' oder \'template\' enthalten und wird deshalb ignoriert.';
 $lang['downloadurl']           = 'Herunterladen';
 $lang['bugtracker']            = 'Fehler melden';
 $lang['sourcerepo']            = 'Verwaltung';
@@ -55,6 +59,7 @@ $lang['t_typehelper']          = '%s-Plugins bieten Funktionalitäten für ander
 $lang['t_typetemplate']        = '%s verändern das Erscheinen von DokuWiki';
 $lang['t_typeremote']          = '%s plugins fügen Methoden zur RemoteAPI über Web Services hinzu';
 $lang['t_typeauth']            = '%s plugins fügen Authentifizierungsmodule hinzu';
+$lang['t_typecli']             = '%s Plugins fügen Befehle hinzu, die mit der Kommandozeile (CLI, Command Line Interface) genutzt werden können.';
 $lang['t_filterbytag']         = 'nach Schlagwort filtern';
 $lang['t_availabletype']       = 'Verfügbare %s-Plugins';
 $lang['t_availabletagged']     = 'Markiert mit \'%s\'';
